@@ -1,0 +1,17 @@
+.MenuBar {
+    border: none !important;
+    border-radius: 0px !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+/* .menuTopClass {
+} */
+
+.MenuBar .p-megamenu-root-list {
+    margin-right: 2rem !important;
+}
+
+.MenuBar .p-megamenu-panel {
+    right: 0.0rem !important;
+}

@@ -1,0 +1,19 @@
+.p-card-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.p-card-subtitle {
+    text-align: center;
+}
+.p-card {
+    width: 25rem !important;
+    margin: auto !important;
+    /* top: 12rem !important; */
+    /* position: relative !important; */
+}
+.loginContent .p-inputtext {
+    display: block !important;
+    padding: 1rem !important;
+    width: 23rem !important;
+    margin-bottom: 1rem !important;
+}

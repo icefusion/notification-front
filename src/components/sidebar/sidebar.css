@@ -1,0 +1,48 @@
+.tamanhoExpanded {
+    width: 290px;
+    transition: width 250ms ease-out;
+}
+.tamanho {
+    width: 88px;
+    transition: width 250ms linear;
+}
+.contec1 {
+    align-items: center;
+    display: flex;
+    background-color: #282e38;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.empresaName {
+    color: #e6e6e6; font-size: 20px; font-weight: bold;
+}
+.containerMenu {
+    background-color: #1f2d40;
+    border-top: 1px solid #1f2d40;
+    border-right: 1px solid #1f2d40;
+    height: calc(200vh - 0px);
+    display: flex;
+    flex-direction: column;
+}
+.contentMenu {
+    /* ${expanded ? "flex-start" : "center"} */
+    /* align-items: center; */
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+.linkStyle {
+    color: #544f77;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contentMenu a.active {
+    color: #535bf2 !important
+}
+  
